@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "terminal"
+version: "0.1"
+maintainer: "Vladimir Keleshev <vladimir@keleshev.com>"
+authors: "Vladimir Keleshev <vladimir@keleshev.com>"
+homepage: "https://github.com/keleshev/terminal.ml"
+bug-reports: "https://github.com/keleshev/terminal.ml/issues"
+dev-repo: "git://github.com/keleshev/terminal.ml.git"
+license: "MIT"
+build: [make "build"]
+build-test: [make "test"]
+depends: "ocamlfind"
+available: [ ocaml-version >= "4.02.1" & opam-version >= "1.2" ]
